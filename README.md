@@ -104,9 +104,9 @@ To run this project:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- HTML file
-- CSS file
-- Toolbar and headline 
+- My work templates
+- Get my Resume
+- Send me your Feedback
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
