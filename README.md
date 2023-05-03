@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: finish mobile version</b></h3>
+  <h3><b>Portfolio: add a contact form and finish the mobile version</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,9 +27,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: finish mobile version <a name="about-project"></a>
+# 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
-Portfolio: finish mobile version is the third part of my portiflio .
+Portfolio: add a contact form and finish the mobile version is the last project of  part of my portiflio .
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -94,19 +94,23 @@ To run this project:
 ## 👥 Authors <a name="authors"></a>
 
 👤 Solomon G. Kidanu
-
 - GitHub: [Solomon](https://github.com/solog0039)
 - Twitter: [Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](https://www.linkedin.com/in/solomon-kidanu-62a994232/)
 
+👤 Amir Hussain habibi
+
+- GitHub: [@AmirHussainhabibi](https://github.com/Salarhabibi-amir)
+
+- LinkedIn: [Amir Hussain Habibi](https://www.linkedin.com/in/amir-hussain-habibi-153688185/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- My work templates
-- Get my Resume
-- Send me your Feedback
+- HTML file
+- CSS file
+- Toolbar and headline 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
