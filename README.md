@@ -59,10 +59,10 @@ Portfolio - mobile menu is the first project with JavaScript on my portiflio .
 - linter setup
 - HTML, CSS and JS files creation
 - creating the work and about me sections of my mobile version portiflio
-<p align="right">
-(<a href="#readme-top">back to top</a>)</p>
+  <p align="right">
+  (<a href="#readme-top">back to top</a>)</p>
 
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
   ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -77,14 +77,14 @@ Portfolio - mobile menu is the first project with JavaScript on my portiflio .
 - A code editor.
 - Installation of NPM.
 - Installation of Git.
-  
+
 ### Setup
 
 Run the command to clone the project locally on your computer "git clone https://github.com/solog0039/Portfolio-final.git"
 
 ### Install
 
-Install  all dependencies.
+Install all dependencies.
 This one will install stylelinter:
 
 > npm install
@@ -92,17 +92,22 @@ This one will install stylelinter:
 ### Usage
 
 To run this project:
- 1. open the whole project in VS code 
- 2. right click on the HTML file
- 3. select the "open with live server" option.
 
+1.  open the whole project in VS code
+2.  right click on the HTML file
+3.  select the "open with live server" option.
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 Solomon G. Kidanu
+
 - GitHub: [Solomon](https://github.com/solog0039)
 - Twitter: [Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](https://www.linkedin.com/in/solomon-kidanu-62a994232/)
+
+👤 mohammed roshdy elkhdragy
+
+- Github: [ mohammed ](https://github.com/MohamedRoshdy2021)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
