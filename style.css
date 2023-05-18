@@ -539,7 +539,7 @@ ul.skills {
 }
 
 .see-project-1 {
-  width: 124px;
+  width: 142px;
   background: #ff6b00;
   color: #fff;
   padding: 10px;
@@ -550,7 +550,7 @@ ul.skills {
   line-height: 24px;
   text-decoration: none;
   margin-top: 18px;
-  margin-bottom: 5vh;
+  margin-bottom: 25px;
   margin-left: 20px;
 }
 
@@ -1053,7 +1053,7 @@ ul.Sk-list {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 80%;
+    width: 86%;
     height: 80%;
     overflow: auto;
     background-color: rgb(0, 0, 0);
@@ -1135,7 +1135,7 @@ ul.Sk-list {
   }
 
   .desk1 > img {
-    width: 60%;
+    width: 58%;
     height: auto;
   }
 
@@ -1143,6 +1143,7 @@ ul.Sk-list {
     display: flex;
     flex-direction: column;
     padding-right: 20px;
+    width: 40%;
   }
 
   .desk2 > p {
@@ -1168,8 +1169,9 @@ ul.Sk-list {
     display: flex;
     list-style: none;
     align-items: center;
+    position: relative;
     gap: 24px;
-    padding-top: 30%;
+    margin-top: 27.5%;
   }
 
   .live-sourceD > a {
@@ -1344,7 +1346,7 @@ ul.Sk-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url(./assets/deskimage/Placeholder1.png);
+    background-image: url(./assets/deskimage/Placeholder3.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 31vw;
@@ -1354,7 +1356,7 @@ ul.Sk-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url(./assets/deskimage/Placeholder4.png);
+    background-image: url(./assets/deskimage/Placeholder1.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 31vw;
@@ -1384,7 +1386,7 @@ ul.Sk-list {
   }
 
   .all-cards:hover {
-    background-image: url(./assets/deskimage/Placeholder1.png);
+    background-image: url(./assets/deskimage/Placeholder3.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
