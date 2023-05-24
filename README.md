@@ -29,7 +29,7 @@
 
 # 📖 Portfolio: details popup window <a name="about-project"></a>
 
-Portfolio: details popup window is the second project with JavaScript on my portiflio .
+ details popup window is the second project with JavaScript on my portiflio .
 
 ## 🛠 Built With <a name="built-with"></a>
 
