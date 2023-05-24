@@ -104,6 +104,12 @@ To run this project:
 - Twitter: [@Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](www.linkedin.com/in/solomon-kidanu-62a994232)
 
+👤 Ali Akbar Sazish
+
+- GitHub: [@githubhandle](https://github.com/akbarsazish)
+- Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
+
 
 👤 Daniel Villalba Lynch
 
