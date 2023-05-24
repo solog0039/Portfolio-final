@@ -29,7 +29,7 @@
 
 # 📖 Portfolio: validate contact form <a name="about-project"></a>
 
-Portfolio: desktop version  project is the desktop version of my portiflio .
+Portfolio: validate contact form of my portiflio .
 
 ## 🛠 Built With <a name="built-with"></a>
 
