@@ -112,6 +112,12 @@ To run this project:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Fernando Montes**
+
+- GitHub: [@Fernando426](https://github.com/Fernando426)
+- Twitter: [@Fernando_426_](https://twitter.com/Fernando_426_)
+- LinkedIn: [Fernando Montes](https://www.linkedin.com/in/fernando-jose-montes-linares-523822270/?originalSubdomain=ve)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - HTML file

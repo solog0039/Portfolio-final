@@ -160,7 +160,7 @@ table {
 
 .button:hover {
   text-decoration: underline;
-  color: aqua;
+  color: rgb(52, 125, 41);
 }
 
 .button:active {
