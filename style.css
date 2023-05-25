@@ -977,7 +977,8 @@ ul.Sk-list {
   }
 
   .desk-skill :hover {
-    border: solid blue;
+    border: solid #f55800;
+    cursor: pointer;
   }
 
   .button {
