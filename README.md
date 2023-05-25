@@ -105,7 +105,12 @@ To run this project:
 - Twitter: [Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](https://www.linkedin.com/in/solomon-kidanu-62a994232/)
 
-👤 mohammed roshdy elkhdragy
+👤 **Ali Akbar Sazish**
+
+- GitHub: [@githubhandle](https://github.com/akbarsazish)
+- Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
+
 
 - Github: [ mohammed ](https://github.com/MohamedRoshdy2021)
 
