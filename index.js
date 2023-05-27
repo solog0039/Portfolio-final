@@ -8,7 +8,7 @@ const ProjectsMobile = [
     Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the      industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     Technologies: ['CSS', 'HTML', 'bootstrap', 'Ruby'],
     Link: 'see my project',
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -20,7 +20,7 @@ const ProjectsMobile = [
     Titled: 'Profesional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard..',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. . It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -30,9 +30,9 @@ const ProjectsMobile = [
     Title: 'Multi-Post Stories',
     Title2: 'Profesional Art Printing Data',
     Titled: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard..',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -44,7 +44,7 @@ const ProjectsMobile = [
     Titled: 'Website Protfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard..',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -56,7 +56,7 @@ const ProjectsMobile = [
     Titled: 'Profesional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard..',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -68,7 +68,7 @@ const ProjectsMobile = [
     Titled: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard..',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -80,7 +80,7 @@ const ProjectsMobile = [
     Titled: 'Website Protfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard..',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     ImagePop: ['/assets/Portfolio.png', 'popup image'],
     TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
     LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
@@ -101,7 +101,7 @@ ProjectsMobile.forEach((project, index) => {
 </div>
   <div class="img-multi">
         <img class="main-image desk-main-image" src="${project.Image}" alt="main image">
-      <div class="card-1 desk-card-1r">
+      <div class="card-1">
         <h2 class="multi-story desk-multi-story">${project.Title2}</h2>
         <p class="p21 desk-p21">${project.Description}</p>
       <ul class="skills desk-skills">
@@ -169,9 +169,9 @@ ProjectsMobile.forEach((projec) => {
       <li>${projec.TecnologiesPop[2]}</li>
       </ul>
       <div class ="desk1">
-      <img src="${projec.ImagePop[0]}" alt="${projec.ImagePop[1]}">
+      <img class ="modal-img" src="${projec.ImagePop[0]}" alt="${projec.ImagePop[1]}">
       <div class ="desk2">
-      <p>${projec.DescriptionPop} </p>
+      <p class ="modal-pm">${projec.DescriptionPop} </p>
       <div class = "live-source live-sourceD">
       <a href="${projec.LinksPop[0][0]}">${projec.LinksPop[0][1]}<img src="${projec.LinksPop[0][2]}" alt="${projec.LinksPop[0][3]}"></a>
   <a href="${projec.LinksPop[1][0]}">${projec.LinksPop[1][1]} <img src="${projec.LinksPop[1][2]}" alt="${projec.LinksPop[1][1]}"></a>
