@@ -354,6 +354,7 @@ table {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 60px 16px 60px 16px;
 }
+
 .modal {
   display: none;
   position: fixed;
@@ -552,11 +553,13 @@ ul.skills {
 .skill :hover {
   border: solid blue;
 }
+
 /* Profesional Art Printing Data */
 
 .card-2m {
   padding-left: 20px;
 }
+
 .card-2 {
   display: flex;
   margin-left: 24px;
@@ -587,6 +590,44 @@ ul.skills {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+}
+
+.see-project-2 {
+  padding: 22px;
+  background: #ff6b00;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.see-project-1 {
+  width: 142px;
+  background: #ff6b00;
+  color: #fff;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.see-project-1 :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 
 ul.skils {
@@ -635,46 +676,6 @@ ul.skils :first-child :hover {
   line-height: 20px;
   color: #fff;
 }
-
-.see-project-2 {
-  padding: 22px;
-  background: #ff6b00;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  margin-bottom: 0;
-  width: 100%;
-}
-
-
-.see-project-1 {
-  width: 142px;
-  background: #ff6b00;
-  color: #fff;
-  padding: 10px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  margin-top: 18px;
-  margin-bottom: 25px;
-  margin-left: 20px;
-}
-
-.see-project-1 :hover {
-  text-decoration: underline;
-  text-decoration-color: blue;
-}
-
 
 /* About me  */
 
@@ -942,12 +943,14 @@ ul.Sk-list {
 .social-Linkdinf {
   opacity: 1;
 }
+
 /* desk top version */
 
 @media only screen and (min-width: 768px) {
   .toolbar {
     display: none;
   }
+
   .desktop-header {
     display: flex;
     flex: 1;
@@ -1061,7 +1064,9 @@ ul.Sk-list {
   }
 
   /* desk popup start */
+
   /* recent card */
+
   .modal-r {
     display: none;
     position: fixed;
@@ -1074,7 +1079,9 @@ ul.Sk-list {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
   }
+
   /* for desk cards  */
+
   .modalD {
     display: none;
     position: fixed;
@@ -1098,7 +1105,6 @@ ul.Sk-list {
     margin-right: 30pc;
     width: 90%;
     height: 90%;
-
   }
 
   .modalHead-closeD {
@@ -1232,6 +1238,7 @@ ul.Sk-list {
     flex-direction: column;
     padding: 24px;
   }
+
   .card-recetn {
     display: flex;
     flex-direction: column;
@@ -1239,6 +1246,7 @@ ul.Sk-list {
     margin-bottom: 30px;
     width: 97%;
   }
+
   .desk-h21-line {
     display: flex;
     flex-direction: row;
@@ -1325,11 +1333,12 @@ ul.Sk-list {
     border: 1px solid #8993a4;
   }
 
-  .skill, 
+  .skill,
   .desk-skill {
     margin-left: 15px;
     padding: 15px;
   }
+
   .desk-skill :hover {
     border: solid blue;
   }
@@ -1367,6 +1376,7 @@ ul.Sk-list {
     display: flex;
     flex-direction: column;
   }
+
   .card123,
   .card456 {
     display: flex;
@@ -1392,7 +1402,7 @@ ul.Sk-list {
     width: 100%;
     height: 60vh;
     margin-left: 0;
-  margin-right: 0;
+    margin-right: 0;
   }
 
   .desk-card-0 {
@@ -1412,6 +1422,7 @@ ul.Sk-list {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .desk-card-3 {
     background-image: url(./assets/deskimage/Placeholder1.png);
     background-repeat: no-repeat;
@@ -1429,7 +1440,7 @@ ul.Sk-list {
     background-repeat: no-repeat;
     background-size: cover;
   }
- 
+
   .desk-prof-art-dash {
     display: flex;
     padding-top: 180px;
@@ -1441,6 +1452,7 @@ ul.Sk-list {
     line-height: 44px;
     color: #fff;
   }
+
   .desk-p22-d {
     padding-left: 10px;
     font-family: 'Inter', sans-serif;
@@ -1455,7 +1467,6 @@ ul.Sk-list {
   ul.skils {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
     margin: 0;
     padding: 0;
     padding-right: 10px;
@@ -1463,7 +1474,7 @@ ul.Sk-list {
     width: 90%;
   }
 
-  .desk-skils-d > li
+  .desk-skils-d > li,
   .skils > li {
     padding: 10px;
     margin: 0;
@@ -1483,10 +1494,11 @@ ul.Sk-list {
     margin-left: 10px;
     padding: 10px;
   }
+
   ul.skils :first-child {
     display: flex;
     padding: 10px;
-  }  
+  }
 
   .no-hover {
     opacity: 1;
@@ -1507,9 +1519,9 @@ ul.Sk-list {
     letter-spacing: 0.03em;
     color: #fff;
     opacity: 0;
-   margin: 0;
+    margin: 0;
   }
-  
+
   .all-cards:hover {
     background-image: url(./assets/deskimage/Placeholder3.png);
     background-repeat: no-repeat;
@@ -1517,28 +1529,29 @@ ul.Sk-list {
     opacity: 1;
     border: 1px solid #f55800;
   }
-  
+
   .all-cards:hover > .desk-see-project-1c {
     opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .all-cards:hover > .no-hover {
     opacity: 0;
   }
-  
+
   .desk-see-project-1m:hover {
     border: solid blue;
   }
 
-/* desk cards end*/
+  /* desk cards end */
 
-.about-me,
-hr.line-3  {
-  display: none;
-}
+  .about-me,
+  hr.line-3 {
+    display: none;
+  }
+
   .section-3 {
     background: #262626;
     margin-left: 0;

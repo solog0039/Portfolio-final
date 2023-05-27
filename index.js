@@ -2,17 +2,17 @@ const ProjectsMobile = [
   {
     Title1: 'My recent works',
     Image: 'assets/images/Placeholder.png',
-  
+
     Title2: 'Multi-Post Stories',
     Title: 'Multi-Post Stories',
     Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the      industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     Technologies: ['CSS', 'HTML', 'bootstrap', 'Ruby'],
     Link: 'see my project',
     DescriptionPop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      ImagePop: ['/assets/Portfolio.png', 'popup image'],
-      TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
-      LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
-      ClosePop: '&times;',
+    ImagePop: ['/assets/Portfolio.png', 'popup image'],
+    TecnologiesPop: ['HTML', 'bootstrap', 'Ruby'],
+    LinksPop: [['https://www.google.com/', 'see live', '/assets/Icon.png', 'google'], ['https://github.com/', 'see source', '/assets/Vector.png', 'github']],
+    ClosePop: '&times;',
   },
   {
     Title: 'Multi-Post Stories',
@@ -92,10 +92,10 @@ const existingCard0 = document.querySelector('#carddss');
 const existingCard2 = document.querySelector('#section-021');
 
 ProjectsMobile.forEach((project, index) => {
-  if(index<1){
+  if (index < 1) {
     const recentcard = document.createElement('div');
-  recentcard.classList.add('cards1r');
-  recentcard.innerHTML = `<div class="h21-line desk-h21-line">
+    recentcard.classList.add('cards1r');
+    recentcard.innerHTML = `<div class="h21-line desk-h21-line">
   <h1 class="h21 desk-h21">${project.Title1}</h1>
   <hr class="line">
 </div>
@@ -113,12 +113,11 @@ ProjectsMobile.forEach((project, index) => {
         <button class ="see-project-1 see-project-2 desk-see-project-1m" id="seeprojectt" onclick="popupp()">${project.Link}</button>
     </div>
     </div>`;
-  existingCard0.appendChild(recentcard);
-  }
- else if(index<4){
-  const card = document.createElement('div');
-  card.classList.add('cards1');
-  card.innerHTML = `<div class="card-2 all-cards desk-card-${index}">
+    existingCard0.appendChild(recentcard);
+  } else if (index < 4) {
+    const card = document.createElement('div');
+    card.classList.add('cards1');
+    card.innerHTML = `<div class="card-2 all-cards desk-card-${index}">
   <div class="no-hover">
   <h2 class="prof-art">${project.Title2} </h2>
   <h2 class="desk-prof-art-dash">${project.Titled}</h2>
@@ -132,9 +131,8 @@ ProjectsMobile.forEach((project, index) => {
   <button class ="see-project-2 desk-see-project-1c" id="seeproject-2" onclick="popupp()">see project</button>
   </div>
   `;
-  existingCard.appendChild(card);
-}
-  else{
+    existingCard.appendChild(card);
+  } else {
     const card = document.createElement('div');
     card.classList.add('cards1');
     card.innerHTML = `<div class="card-2 all-cards desk-card-${index}">
@@ -159,7 +157,7 @@ let i = 0;
 ProjectsMobile.forEach((projec) => {
   const popup = document.createElement('div');
   popup.classList.add('modal');
-  popup.innerHTML =  ` <div class="modal-content modal-contentD">
+  popup.innerHTML = ` <div class="modal-content modal-contentD">
       <div class="modalHead-close modalHead-closeD">
       <h2 class = "modalHeader modalHeaderD" id="modalHeader">${projec.Title}${[i]}</h2>
       <span class="close closeD">${projec.ClosePop}</span>
