@@ -160,7 +160,7 @@ table {
 
 .button:hover {
   text-decoration: underline;
-  color: rgb(52, 125, 41);
+  color: aqua;
 }
 
 .button:active {
@@ -335,12 +335,25 @@ table {
 
 /* Second page and cards */
 
-.desk-cards {
+.desk-prof-art-dash {
   display: none;
 }
 
 /* popup start  mobile */
 
+.modal-r {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 90vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 60px 16px 60px 16px;
+}
 .modal {
   display: none;
   position: fixed;
@@ -445,9 +458,11 @@ table {
 /* popup ends mobile */
 
 .cards {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background: #fff;
   margin-right: 1px;
+  margin-bottom: 50px;
 }
 
 .h21-line {
@@ -537,41 +552,19 @@ ul.skills {
 .skill :hover {
   border: solid blue;
 }
-
-.see-project-1 {
-  width: 142px;
-  background: #ff6b00;
-  color: #fff;
-  padding: 10px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  margin-top: 18px;
-  margin-bottom: 25px;
-  margin-left: 20px;
-}
-
-.see-project-1 :hover {
-  text-decoration: underline;
-  text-decoration-color: blue;
-}
-
 /* Profesional Art Printing Data */
 
 .card-2m {
   padding-left: 20px;
 }
-
 .card-2 {
   display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
   flex-direction: column;
   background-image: url(./assets/images/Placeholder1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 88vw;
 }
 
 .prof-art {
@@ -644,7 +637,7 @@ ul.skils :first-child :hover {
 }
 
 .see-project-2 {
-  padding: 3vw;
+  padding: 22px;
   background: #ff6b00;
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -656,9 +649,32 @@ ul.skils :first-child :hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  width: 88vw;
-  margin-bottom: 10vh;
+  margin-bottom: 0;
+  width: 100%;
 }
+
+
+.see-project-1 {
+  width: 142px;
+  background: #ff6b00;
+  color: #fff;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.see-project-1 :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
 
 /* About me  */
 
@@ -926,14 +942,12 @@ ul.Sk-list {
 .social-Linkdinf {
   opacity: 1;
 }
-
 /* desk top version */
 
 @media only screen and (min-width: 768px) {
   .toolbar {
     display: none;
   }
-
   .desktop-header {
     display: flex;
     flex: 1;
@@ -1042,23 +1056,36 @@ ul.Sk-list {
 
   /* Cards */
 
-  .cards {
+  .prof-art {
     display: none;
   }
 
   /* desk popup start */
+  /* recent card */
+  .modal-r {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  /* for desk cards  */
   .modalD {
     display: none;
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
-    width: 86%;
-    height: 80%;
+    width: 100%;
+    height: 90%;
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
-    margin: 80px;
   }
 
   /* Modal Content */
@@ -1067,7 +1094,11 @@ ul.Sk-list {
     display: flex;
     flex-direction: column;
     background: #fff;
-    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30pc;
+    width: 90%;
+    height: 90%;
+
   }
 
   .modalHead-closeD {
@@ -1195,17 +1226,24 @@ ul.Sk-list {
 
   /* desk popup end  */
 
-  .desk-cards {
+  /* desk cards start */
+  .cards {
     display: flex;
     flex-direction: column;
+    padding: 24px;
   }
-
+  .card-recetn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 97%;
+  }
   .desk-h21-line {
     display: flex;
+    flex-direction: row;
+    margin-top: 0;
     align-items: center;
-    margin-left: 75px;
-    margin-right: 30px;
-    padding-top: 45px;
     padding-bottom: 45px;
   }
 
@@ -1215,36 +1253,44 @@ ul.Sk-list {
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
-    align-items: center;
     color: #091e42;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 0;
+    justify-content: center;
+    padding-right: 0;
+    margin-right: 0;
   }
 
   hr.desk-line {
     display: flex;
     background-color: #e5e5e5;
     height: 1px;
-    width: 38vw;
+    width: 58%;
     margin-left: 10px;
+    margin-top: 0;
   }
 
   .img-multi {
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    width: 87vw;
-    height: 75vh;
-  }
-
-  .desk-card-1 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 96%;
+    gap: 10px;
   }
 
   .desk-main-image {
-    width: 50vw;
-    height: 60vh;
+    margin-left: 0;
+    margin-top: 0;
+    width: 60%;
+    height: auto;
+  }
+
+  .desk-card-1r {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 39%;
   }
 
   .desk-multi-story {
@@ -1267,19 +1313,25 @@ ul.Sk-list {
     color: #091e42;
   }
 
-  .desk-skills {
+  .desk-skills,
+  ul.skills {
     display: flex;
+    flex: 1;
+    margin-top: 10px;
   }
 
   .desk-skills > li {
-    padding: 1vw;
     margin: 5px;
     border: 1px solid #8993a4;
   }
 
+  .skill, 
+  .desk-skill {
+    margin-left: 15px;
+    padding: 15px;
+  }
   .desk-skill :hover {
     border: solid blue;
-    color: #ff6b00;
   }
 
   .button {
@@ -1299,115 +1351,87 @@ ul.Sk-list {
     font-size: 17px;
     line-height: 24px;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
     justify-content: center;
     margin-top: 10px;
-    width: 125px;
+    text-align: center;
+    width: 150px;
     height: 48px;
     text-decoration: none;
     background: #f55800;
+    margin-left: 0;
   }
 
-  .desk-see-project-1 {
-    margin-top: 5px;
-    height: 60px;
-    width: 100%;
-    text-decoration: none;
-    background: #f55800;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
+  .desk-cardss {
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0.03em;
-    color: #fff;
+    flex-direction: column;
   }
-
-  .desk-see-project-1m:hover {
-    border: solid blue;
-  }
-
-  .card123 {
+  .card123,
+  .card456 {
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    width: 87vw;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 97%;
     height: 60vh;
     gap: 10px;
     padding-top: 25px;
   }
 
-  .desk-card-pro1 {
+  .desk-card-0,
+  .desk-card-1,
+  .desk-card-2,
+  .desk-card-3,
+  .desk-card-4,
+  .desk-card-5,
+  .card-2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url(./assets/deskimage/Placeholder3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 31vw;
+    width: 100%;
+    height: 60vh;
+    margin-left: 0;
+  margin-right: 0;
   }
 
-  .desk-card-d1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  .desk-card-0 {
     background-image: url(./assets/deskimage/Placeholder1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 31vw;
   }
 
-  /* hovers for projects */
-
-  .no-hover {
-    opacity: 1;
-  }
-
-  .desk-see-project-1c {
-    margin-top: 5px;
-    height: 60px;
-    width: 100%;
-    text-decoration: none;
-    background: #f55800;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    opacity: 0;
-  }
-
-  .all-cards:hover {
-    background-image: url(./assets/deskimage/Placeholder3.png);
+  .desk-card-1 {
+    background-image: url(./assets/deskimage/Placeholder4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 1;
-    border: 1px solid #f55800;
   }
 
-  .all-cards:hover > .desk-see-project-1c {
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .desk-card-2 {
+    background-image: url(./assets/deskimage/Placeholder5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .desk-card-3 {
+    background-image: url(./assets/deskimage/Placeholder1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .all-cards:hover > .no-hover {
-    opacity: 0;
+  .desk-card-4 {
+    background-image: url(./assets/deskimage/Placeholder4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  /* hovers for project end */
-
+  .desk-card-5 {
+    background-image: url(./assets/deskimage/Placeholder5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
   .desk-prof-art-dash {
+    display: flex;
     padding-top: 180px;
     padding-left: 10px;
     font-family: 'Crete Round', sans-serif;
@@ -1417,7 +1441,6 @@ ul.Sk-list {
     line-height: 44px;
     color: #fff;
   }
-
   .desk-p22-d {
     padding-left: 10px;
     font-family: 'Inter', sans-serif;
@@ -1428,14 +1451,22 @@ ul.Sk-list {
     color: #fff;
   }
 
-  .desk-skils-d {
+  .desk-skils-d,
+  ul.skils {
     display: flex;
-    padding-left: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    margin-bottom: 0;
+    width: 90%;
   }
 
-  .desk-skils-d > li {
-    padding: 1vw;
-    margin: 5px;
+  .desk-skils-d > li
+  .skils > li {
+    padding: 10px;
+    margin: 0;
     background: rgba(255, 255, 255, 0.24);
   }
 
@@ -1448,68 +1479,66 @@ ul.Sk-list {
     color: #fff;
   }
 
-  .desk-card-w1 {
+  .skil {
+    margin-left: 10px;
+    padding: 10px;
+  }
+  ul.skils :first-child {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-image: url(./assets/deskimage/Placeholder5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 31vw;
+    padding: 10px;
+  }  
+
+  .no-hover {
+    opacity: 1;
   }
 
-  .desk-prof-art-w {
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    position: relative;
-    padding-top: 200px;
-  }
-
-  .desk-w {
+  .desk-see-project-1c {
+    display: none;
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+    background: #f55800;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 17px;
     line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #fff;
+    opacity: 0;
+   margin: 0;
   }
-
-  .card456 {
-    display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    width: 87vw;
-    height: 65vh;
-    gap: 10px;
-    padding-top: 25px;
-    padding-bottom: 70px;
-  }
-
-  .desk-card-d2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-image: url(./assets/deskimage/Placeholder4.png);
+  
+  .all-cards:hover {
+    background-image: url(./assets/deskimage/Placeholder3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 31vw;
+    opacity: 1;
+    border: 1px solid #f55800;
+  }
+  
+  .all-cards:hover > .desk-see-project-1c {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .all-cards:hover > .no-hover {
+    opacity: 0;
+  }
+  
+  .desk-see-project-1m:hover {
+    border: solid blue;
   }
 
-  .desk-card-w2 {
-    background-image: url(./assets/deskimage/Placeholder5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 31vw;
-  }
+/* desk cards end*/
 
-  .about-me {
-    display: none;
-  }
-
+.about-me,
+hr.line-3  {
+  display: none;
+}
   .section-3 {
     background: #262626;
     margin-left: 0;
