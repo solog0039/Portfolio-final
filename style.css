@@ -230,6 +230,7 @@ table {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
+  width: 126px;
 }
 
 .m-menu a:hover,
@@ -421,6 +422,12 @@ table {
   align-self: center;
 }
 
+.modal-img {
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+
 .modal-pm {
   display: flex;
   font-family: 'Inter', sans-serif;
@@ -435,10 +442,9 @@ table {
 .live-source {
   display: flex;
   list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 5px;
+  gap: 15px;
 }
 
 .live-source > a > img {
@@ -1173,8 +1179,6 @@ ul.Sk-list {
   .live-sourceD {
     display: flex;
     list-style: none;
-    align-items: center;
-    position: relative;
     gap: 10px;
     margin-top: 10px;
   }
@@ -1182,7 +1186,7 @@ ul.Sk-list {
   .live-sourceD > a {
     display: flex;
     text-decoration: none;
-    padding: 7px;
+    padding: 6px 2px 6px 2px;
     background: #ff6b00;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1194,8 +1198,8 @@ ul.Sk-list {
   }
 
   .live-sourceD > a > img {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* desk popup end  */
